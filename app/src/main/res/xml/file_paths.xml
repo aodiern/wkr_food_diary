@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Доступ к internal cache (context.cacheDir) -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- Доступ к internal files (context.filesDir) -->
+    <files-path
+        name="files"
+        path="." />
+
+    <!-- Доступ к внешнему cache (getExternalCacheDir()) -->
+    <external-cache-path
+        name="external_cache"
+        path="." />
+
+    <!-- Доступ ко всему external storage (не обязательно) -->
+    <external-path
+        name="external"
+        path="." />
+</paths>
